@@ -1,0 +1,13 @@
+# Get inputs
+mileage = float(input("Enter car's gas mileage (in miles/gallon): "))
+cost = float(input("Enter cost of gas (in dollars/gallon): "))
+
+# Calculate gas cost for 20 miles, 75 miles, and 500 miles
+gas_cost_20_miles = (20 / mileage) * cost
+gas_cost_75_miles = (75 / mileage) * cost
+gas_cost_500_miles = (500 / mileage) * cost
+
+# Output results
+print(f"Gas cost for 20 miles: ${gas_cost_20_miles:.2f}")
+print(f"Gas cost for 75 miles: ${gas_cost_75_miles:.2f}")
+print(f"Gas cost for 500 miles: ${gas_cost_500_miles:.2f}")
